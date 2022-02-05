@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/_about.scss"],"names":[],"mappings":"AAAA,aACE,cAAA,CACA,gBAAA,CACA,iBAAA,CACA","file":"src.4a4e9e0a.css","sourceRoot":"../src","sourcesContent":[".title-about {\n  font-size: 34px;\n  line-height: 1.24;\n  text-align: center;\n  color: #070707;\n}\n"]}
