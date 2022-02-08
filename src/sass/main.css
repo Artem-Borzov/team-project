@@ -1,0 +1,237 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+body {
+  font-family: 'Gilroy-Medium', sans-serif;
+  color: var(--main-black-color);
+  font-size: 18px;
+  line-height: calc(22 / 18);
+  background-color: var(--main-white-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 940px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.header-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #828282;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header-nav-list__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Gilroy-Bold', sans-serif;
+  color: #828282;
+  font-weight: 700;
+  height: 87.94px;
+}
+
+.header-nav-list__link:hover, .header-nav-list__link:focus {
+  color: #070707;
+}
+
+.header-nav-list__text {
+  color: inherit;
+}
+
+.current {
+  color: #070707;
+}
+
+.title-about {
+  font-size: 34px;
+  line-height: 1.24;
+  text-align: center;
+  color: #070707;
+}
+
+/* footer */
+.footer-container {
+  text-align: center;
+}
+
+@media screen and (max-width: 1139px) {
+  .footer-container {
+    padding-top: 82px;
+    padding-bottom: 90px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .footer-container {
+    padding-top: 114px;
+    padding-bottom: 123px;
+  }
+}
+
+.footer__box-string {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__titel {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 1.24;
+  text-align: center;
+  /* Black */
+  color: #070707;
+}
+
+@media screen and (max-width: 1139px) {
+  .footer__titel {
+    margin-bottom: 27px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .footer__titel {
+    margin-bottom: 20px;
+  }
+}
+
+.footer__welcome {
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  /* Black */
+  color: #070707;
+}
+
+.footer__button {
+  height: 42px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  display: inline;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.22;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+  background-color: #070707;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 1139px) {
+  .footer__button {
+    margin-top: 40px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .footer__button {
+    margin-top: 30px;
+    margin-bottom: 85px;
+  }
+}
+
+.footer__social-link-title {
+  font-family: 'Gilroy-Medium', sans-serif;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  color: #828282;
+}
+
+.footer__social-list {
+  margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1139px) {
+  .footer__social-item {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .footer__social-item {
+    margin-left: 60px;
+  }
+}
+
+.footer__social-item:first-child {
+  margin-left: 0px;
+}
+/*# sourceMappingURL=main.css.map */
