@@ -18,9 +18,12 @@
   text-align: center;
   color: #070707;
 }
-h1 {
+h1,
+ul {
   margin: 0;
 }
-.about-item__three {
+.about-list {
   margin-bottom: 107px;
+
+  list-style: none;
 }
