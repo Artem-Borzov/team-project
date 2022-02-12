@@ -3,6 +3,13 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+
+.about {
+  padding-top: 120px;
+  padding-bottom: 107px;
+  background-color: #f6f6f6;
+}
+
 body {
   font-family: 'Gilroy-Medium', sans-serif;
   color: var(--main-black-color);
@@ -104,12 +111,14 @@ img {
 }
 
 .header-nav-list__link {
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -132,10 +141,12 @@ img {
 }
 
 .title-about {
+
   font-size: 34px;
   line-height: 1.24;
   text-align: center;
   color: #070707;
+
 }
 
 ul {
@@ -269,12 +280,14 @@ figure {
 }
 
 .footer__box-string {
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+
 }
 
 .footer__titel {
@@ -365,5 +378,6 @@ figure {
 
 .footer__social-item:first-child {
   margin-left: 0px;
+
 }
 /*# sourceMappingURL=main.css.map */
