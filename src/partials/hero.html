@@ -1,5 +1,31 @@
 <section class="hero">
-  <p>Denis Novik</p>
-  <p>UX | UI designer 24 years old, Minsk</p>
-  <p>RU | ENG</p>
+	<div class="container hero__container">
+		<p class="hero-name__text">Denis Novik</p>
+		<p class="hero-type__text">UX | UI designer 24 years old, Minsk</p>
+
+		<p class="hero-lang__text"><span class="hero-lang__span">RU</span> | ENG</p>
+
+		<!-- <img src="./images/hero-bg375.jpg" alt="" /> -->
+		<picture>
+			<source
+				srcset="./images/hero-bg1445@2x.webp 2x, ./images/hero-bg1445.jpg 1x"
+				media="(min-width: 940px)"
+				type="image/webp"
+			/>
+
+			<!-- <source
+				srcset="./images/hero-bg1445@2x.webp 2x, ./images/hero-bg1445.jpg 1x"
+				media="(min-width: 1200px)"
+				type="image/webp"
+			/> -->
+
+			<source
+				srcset="./images/hero-bg375@2x.webp 2x, ./images/hero-bg375.jpg 1x"
+				media="(min-width: 375px)"
+				type="image/webp"
+			/>
+
+			<img class="team__image" src="./images/hero-bg375.jpg" alt="Человек с кепкой" width="316" />
+		</picture>
+	</div>
 </section>
