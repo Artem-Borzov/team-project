@@ -78,6 +78,12 @@ img {
   cursor: pointer;
 }
 
+@media screen and (min-width: 940px) {
+  .header-nav {
+    height: 65px;
+  }
+}
+
 .header-nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -89,6 +95,12 @@ img {
       -ms-flex-align: center;
           align-items: center;
   border-bottom: 1px solid #828282;
+}
+
+@media screen and (max-width: 939px) {
+  .header-nav-list {
+    display: none;
+  }
 }
 
 .header-nav-list__link {
