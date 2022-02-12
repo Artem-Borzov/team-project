@@ -1,15 +1,18 @@
 .about-title {
   display: flex;
   justify-content: center;
+  font-family: 'Gilroy-Bold', sans-serif;
   font-size: 34px;
   line-height: 1.24;
   text-align: center;
   color: #070707;
   margin-bottom: 18px;
+  margin-top: 120px;
 }
 .about-item {
   display: flex;
   justify-content: center;
+  font-family: 'Gilroy-Bold', sans-serif;
   font-size: 18px;
   line-height: 1.2;
   text-align: center;
@@ -17,4 +20,7 @@
 }
 h1 {
   margin: 0;
+}
+.about-item__three {
+  margin-bottom: 107px;
 }
