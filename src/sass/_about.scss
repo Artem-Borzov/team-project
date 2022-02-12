@@ -1,10 +1,14 @@
 .about-title {
+  display: flex;
+  align-items: center;
   font-size: 34px;
   line-height: 1.24;
   text-align: center;
   color: #070707;
 }
 .about-item {
+  display: flex;
+  align-items: center;
   font-size: 18px;
   line-height: 1.2;
   text-align: center;

@@ -4,6 +4,12 @@
  * Все паршалы подключаются сюда.
  */
 .about-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 34px;
   line-height: 1.24;
   text-align: center;
@@ -11,6 +17,12 @@
 }
 
 .about-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 18px;
   line-height: 1.2;
   text-align: center;
