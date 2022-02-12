@@ -170,6 +170,10 @@ img {
   z-index: 999;
   -webkit-transform: translate(-100%);
           transform: translate(-100%);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .mob-menu.is-open {
