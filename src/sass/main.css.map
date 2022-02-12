@@ -1,15 +1,15 @@
 {
-    "version": 3,
-    "mappings": ";AAAA;;;GAGG;AGHH,AAAA,MAAM,CAAC;EACL,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;EACrB,gBAAgB,EAAE,OAAsB;CACzC;;AACD,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,yBAAyB;EACtC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CACpB;;AACD,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,yBAAyB;EACtC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;CACf;;AACD,AAAA,EAAE,CAAC;EACD,MAAM,EAAE,CAAC;CACV",
-    "sources": [
-        "main.scss",
-        "_header.scss",
-        "_hero.scss",
-        "_about.scss",
-        "_skill.scss",
-        "_portfolio.scss",
-        "_footer.scss"
-    ],
-    "names": [],
-    "file": "main.css"
+	"version": 3,
+	"mappings": ";AAAA;;;GAGG;AGHH,AAAA,MAAM,CAAC;EACL,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;EACrB,gBAAgB,EAAE,OAAsB;CACzC;;AACD,AAAA,YAAY,CAAC;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,yBAAyB;EACtC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CACpB;;AACD,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,yBAAyB;EACtC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,OAAO;CACf;;AACD,AAAA,EAAE,CAAC;EACD,MAAM,EAAE,CAAC;CACV",
+	"sources": [
+		"main.scss",
+		"_header.scss",
+		"_hero.scss",
+		"_about.scss",
+		"_skill.scss",
+		"_portfolio.scss",
+		"_footer.scss"
+	],
+	"names": [],
+	"file": "main.css"
 }
