@@ -47,7 +47,18 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 940px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .container {
+    width: 940px;
+  }
 }
 
 .link {
