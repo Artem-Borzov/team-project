@@ -3,6 +3,10 @@
  * Главный файл стилей.
  * Все паршалы подключаются сюда.
  */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Gilroy-Medium', sans-serif;
   color: var(--main-black-color);
@@ -78,16 +82,30 @@ img {
   cursor: pointer;
 }
 
-.header__container {
+.header__container, .header__body {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (max-width: 939px) {
+  .header__container, .header__body {
+    height: 25px;
+  }
+}
+
+.header__body {
+  position: relative;
+}
+
+@media screen and (max-width: 939px) {
+  .header__body {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 939px) {
   .header-nav {
-    height: 65px;
+    height: 25px;
+    display: none;
   }
 }
 
@@ -120,9 +138,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
+  -webkit-writing-mode: sideways-lr;
+      -ms-writing-mode: sideways-lr;
+          writing-mode: sideways-lr;
   font-family: 'Gilroy-Bold', sans-serif;
   color: #828282;
   font-weight: 700;
@@ -145,9 +163,11 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
   width: 100vw;
   height: 100vh;
+  padding: 66px 26px;
+  background-color: #ffffff;
+  z-index: 999;
   -webkit-transform: translate(-100%);
           transform: translate(-100%);
 }
@@ -157,12 +177,51 @@ img {
           transform: translate(0);
 }
 
-.mob-menu-open {
-  margin-left: auto;
+.mob-menu__langs {
+  position: absolute;
+  bottom: 57px;
+  right: 28px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: calc(42 / 34);
+  color: #828282;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+}
+
+.mob-menu-list__item {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: calc(42 / 34);
+  color: #828282;
+}
+
+.mob-menu-list__item:first-child {
+  color: #090909;
+}
+
+.mob-menu-list__item:not(:last-child) {
+  margin-bottom: 68px;
+}
+
+.mob-menu-close {
+  position: absolute;
+  top: 66px;
+  right: 28.13px;
+  border: none;
+  background-color: inherit;
+}
+
+.current-lang {
+  color: #000000;
 }
 
 .hero__container {
-  padding-top: 65px;
+  position: relative;
+  padding-top: 40px;
   padding-bottom: 83px;
 }
 
@@ -236,6 +295,20 @@ img {
   .team__image {
     margin-top: 30px;
     height: 100%;
+  }
+}
+
+.mob-menu-open {
+  position: absolute;
+  top: 43px;
+  right: 15px;
+  background-color: inherit;
+  border: none;
+}
+
+@media screen and (min-width: 940px) {
+  .mob-menu-open {
+    display: none;
   }
 }
 

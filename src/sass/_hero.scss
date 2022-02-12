@@ -1,5 +1,6 @@
 .hero__container {
-	padding-top: 65px;
+	position: relative;
+	padding-top: 40px;
 	padding-bottom: 83px;
 
 	@media screen and (min-width: 940px) {
@@ -61,5 +62,15 @@
 
 		// height: 378px;
 		height: 100%;
+	}
+}
+.mob-menu-open {
+	position: absolute;
+	top: 43px;
+	right: 15px;
+	background-color: inherit;
+	border: none;
+	@media screen and (min-width: 940px) {
+		display: none;
 	}
 }
