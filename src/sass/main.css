@@ -245,13 +245,6 @@ img {
   background-color: #f6f6f6;
 }
 
-.container {
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
 .about-title {
   display: -webkit-box;
   display: -ms-flexbox;
