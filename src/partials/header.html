@@ -1,13 +1,64 @@
-<section class="header">
-  <div class="container">
-    <nav class="header-nav">
-      <ul>
-        <li>Home</li>
-        <li>About me</li>
-        <li>Skills</li>
-        <li>Portfolio</li>
-        <li>Contacts</li>
-      </ul>
-    </nav>
-  </div>
-</section>
+<header class="header" id="home">
+	<div class="container header__container">
+		<div class="header__body">
+			<nav class="header-nav">
+				<ul class="list header-nav-list">
+					<li class="header-nav-list__item">
+						<a class="link current header-nav-list__link" href="#home"
+							><span class="header-nav-list__text">Home</span></a
+						>
+					</li>
+					<li class="header-nav-list__item">
+						<a class="link header-nav-list__link" href="#about"
+							><span class="header-nav-list__text">About me</span></a
+						>
+					</li>
+					<li class="header-nav-list__item">
+						<a class="link header-nav-list__link" href="#skills"
+							><span class="header-nav-list__text">Skills</span></a
+						>
+					</li>
+					<li class="header-nav-list__item">
+						<a class="link header-nav-list__link" href="#portfolio"
+							><span class="header-nav-list__text">Portfolio</span></a
+						>
+					</li>
+					<li class="header-nav-list__item">
+						<a class="link header-nav-list__link" href="#contacts"
+							><span class="header-nav-list__text">Contacts</span></a
+						>
+					</li>
+				</ul>
+			</nav>
+			<div class="mob-menu js-menu-container" id="mob-menu">
+				<button class="button mob-menu-close js-close-menu" type="button">
+					<svg width="23" height="23">
+						<use href="./images/icons.svg#close-gray"></use>
+					</svg>
+				</button>
+				<ul class="list mob-menu-list">
+					<li class="mob-menu-list__item js-close-id1-menu">
+						<a class="link current" href="#home">Home</a>
+					</li>
+					<li class="mob-menu-list__item js-close-id2-menu">
+						<a class="link" href="#about">About me</a>
+					</li>
+					<li class="mob-menu-list__item js-close-id3-menu">
+						<a class="link" href="#skills">Skills</a>
+					</li>
+					<li class="mob-menu-list__item js-close-id4-menu">
+						<a class="link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="mob-menu-list__item js-close-id5-menu">
+						<a class="link" href="#contacts">Contacts</a>
+					</li>
+					<p class="mob-menu__langs">
+						<span class="mob-menu__ru">RU</span>
+						<span class="mob-menu__| current-lang">|</span>
+						<span class="mob-menu__eng current-lang">ENG</span>
+					</p>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>

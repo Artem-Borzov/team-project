@@ -1,6 +1,24 @@
-.title-about {
-  font-size: 34px;
-  line-height: 1.24;
-  text-align: center;
-  color: #070707;
+.about {
+	padding-top: 120px;
+	padding-bottom: 107px;
+	background-color: rgba(246, 246, 246, 1);
+}
+.about-title {
+	display: flex;
+	justify-content: center;
+	font-family: 'Gilroy-Bold', sans-serif;
+
+	margin-bottom: 18px;
+}
+.about-item {
+	display: flex;
+	justify-content: center;
+	font-family: 'Gilroy-Bold', sans-serif;
+	font-size: 18px;
+	line-height: 1.2;
+	text-align: center;
+	color: #070707;
+}
+h1 {
+	margin: 0;
 }
