@@ -413,12 +413,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media screen and (max-width: 579px) {
-  .apps__item {
-    width: calc(100% - 30px);
-  }
+  width: calc(100% - 30px);
 }
 
 .apps__item:not(:last-child) {
@@ -429,12 +424,6 @@ h1 {
 @media screen and (min-width: 940px) {
   .apps__item:not(:last-child) {
     margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 579px) and (max-width: 939px) {
-  .apps__item:nth-child(odd) {
-    margin-right: 30px;
   }
 }
 
@@ -477,7 +466,7 @@ h1 {
           align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
   .rating {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -502,28 +491,62 @@ h1 {
   background-image: url(../images/Star-grey.svg);
 }
 
+.portfolio {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: #f6f6f6;
+}
+
+.portfolio__item {
+  margin-bottom: 78px;
+}
+
+@media screen and (min-width: 940px) {
+  .portfolio__item {
+    margin-top: 6px;
+    margin-bottom: 93px;
+  }
+}
+
 .portfolio__img {
-  width: auto;
+  margin-bottom: 33px;
+  width: 100%;
+}
+
+@media screen and (min-width: 940px) {
+  .portfolio__img {
+    margin-bottom: 45px;
+  }
 }
 
 .portfolio__title {
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  margin-top: 78px;
   margin-bottom: 60px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 34px;
-  line-height: 100%;
+  line-height: calc(42 / 34);
   text-align: center;
   color: #070707;
 }
 
+@media screen and (min-width: 940px) {
+  .portfolio__title {
+    margin-top: 110px;
+    margin-bottom: 41px;
+  }
+}
+
 .portfolio__link {
-  margin-top: 25px;
-  font-family: Inter;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 1.5;
-  letter-spacing: 0.29pt;
+  display: block;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #070707;
 }
 
 /* footer */
